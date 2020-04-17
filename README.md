@@ -11,10 +11,14 @@ WebServer：php71-74
 Redis：可选;限制请求
 
 ## 请求地址：
+下载项目后放置自定目录如/api/AliyunDDNS/ 则请求地址为：
 ```
 https://youserverdomain/api/AliyunDDNS/
 ```
-
+## 直接可用请求地址
+```
+https://www.vas.ink/api/AliyunDDNS/
+```
 请求方式：POST/GET 
 请求限制(需Redis支持)：每分钟最大6次请求，也就是10秒一次，如果超出请求数会被限制60秒
 
