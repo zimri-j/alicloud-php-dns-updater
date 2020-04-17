@@ -138,7 +138,7 @@ $updater->setRecordType($type);
 $updater->setRR($sub);
 $updater->setValue($address);
 
-print_r($updater->sendRequest());
+print_r($updater->sendRequest()); 
 
 
 
